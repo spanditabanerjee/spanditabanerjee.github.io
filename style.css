@@ -167,7 +167,7 @@ section .title::after{
     display: flex;
     background: url("images/banner.jpg") no-repeat center;
     height: 100vh;
-    color: #fff;
+    color: black;
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
