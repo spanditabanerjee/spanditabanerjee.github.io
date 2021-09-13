@@ -35,7 +35,7 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .services, .skills, .teams, .contact, footer{
+.about, .services, .skills, .projects, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
@@ -96,7 +96,7 @@ section .title::after{
     justify-content: space-between;
 }
 .navbar .logo a{
-    color: #fff;
+    color: black;
     font-size: 35px;
     font-weight: 600;
 }
@@ -105,7 +105,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
-    color: #fff;
+    color: black;
 }
 .navbar .menu li{
     list-style: none;
@@ -113,7 +113,7 @@ section .title::after{
 }
 .navbar .menu li a{
     display: block;
-    color: #fff;
+    color: black;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
@@ -128,7 +128,7 @@ section .title::after{
 
 /* menu btn styling */
 .menu-btn{
-    color: #fff;
+    color: black;
     font-size: 23px;
     cursor: pointer;
     display: none;
@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/banner.jpg") no-repeat center;
+    background: url("https://backgrounddownload.com/wp-content/uploads/2018/09/portfolio-background-1.png") no-repeat center;
     height: 100vh;
     color: black;
     min-height: 500px;
@@ -380,7 +380,7 @@ section .title::after{
 
 /* projects section styling */
 .projects .title::after{
-    content: "who with me";
+    content: "what I created";
 }
 .projects .carousel .card{
     background: #222;
