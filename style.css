@@ -384,6 +384,7 @@ section .title::after{
 }
 .projects .carousel .card{
     background: #222;
+    color: white;
     border-radius: 6px;
     padding: 25px 35px;
     text-align: center;
