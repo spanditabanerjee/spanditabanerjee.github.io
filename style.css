@@ -444,7 +444,7 @@ section .title::after{
 
 /* experiences section styling */
 .experiences .title::after{
-    content: "what I created";
+    content: "where I worked";
 }
 .experiences .carousel .card{
     background: #222;
