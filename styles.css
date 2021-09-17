@@ -7,8 +7,33 @@
 body{
 	font-family: 'Poppins', sans-serif;
 }
+
+section .title::after{
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    font-size: 20px;
+    color: crimson;
+    padding: 0 5px;
+    background: #fff;
+    transform: translateX(-50%);
+}
+
+.education, .teams{
+    color:#fff;
+    background: #111;
+}
+.education .title::before,
+.teams .title::before{
+    background: #fff;
+}
+.education .title::after,
+.teams .title::after{
+    background: #111;
+    content: "where I studied";
+}
 .timeline-section{
-	background-color: #24292d;
+	background-color: white;
 	min-height: 100vh;
 	padding: 100px 15px;
 }
@@ -45,7 +70,7 @@ body{
 .timeline-dot{
 	height: 16px;
 	width: 16px;
-	background-color: #eaa023;
+	background-color: crimson;
 	position: absolute;
 	left: calc(50% - 8px);
 	border-radius: 50%;
@@ -53,7 +78,7 @@ body{
 }
 .timeline-date{
 	font-size: 18px;
-	color: #eaa023;
+	color: crimson;
 	margin:6px 0 15px;
 }
 .timeline-content{
