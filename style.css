@@ -720,8 +720,8 @@ footer span a:hover{
     background-color: #3b5998
 }
 
-.social-icons a.twitter:hover {
-    background-color: #00aced
+.social-icons a.github:hover {
+    background-color: #ccc
 }
 
 .social-icons a.linkedin:hover {
